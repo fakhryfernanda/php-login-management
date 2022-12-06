@@ -1,15 +1,15 @@
 {
-    "name": "fakhryfernanda/mvc",
-    "description": "Belajar PHP MVC",
+    "name": "fakhryfernanda/php-login-management",
+    "description": "PHP Login Management",
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Fakhryfernanda\\Mvc\\": "app"
+            "fakhryfernanda\\PHP\\Login\\Management\\": "app"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Fakhryfernanda\\Mvc\\": "test"
+            "fakhryfernanda\\PHP\\Login\\Management\\": "test"
         }
     },
     "authors": [

@@ -1,6 +1,6 @@
 <?php
 
-namespace Fakhryfernanda\Mvc\Controller;
+namespace fakhryfernanda\PHP\Login\Management\Controller;
 
 class HomeController
 {
