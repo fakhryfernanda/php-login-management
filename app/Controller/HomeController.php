@@ -2,25 +2,13 @@
 
 namespace fakhryfernanda\PHP\Login\Management\Controller;
 
+use fakhryfernanda\PHP\Login\Management\App\View;
+
 class HomeController
 {
-    function index(): void
-    {
-        echo "HomeController.index()";
-    }
-    
-    function hello(): void
-    {
-        echo "HomeController.hello()";
-    }
-
-    function world(): void
-    {
-        echo "HomeController.world()";
-    }
-
-    function about(): void
-    {
-        echo "Hello, my name is Muhamad Fakhry Fernanda";
+    function index() {
+        View::render('Home/index', [
+            "title" => "PHP Login Management"
+        ]);
     }
 }
