@@ -1,0 +1,2 @@
+File di folder repository berisi detail logic untuk berhubungan dengan database
+Satu file untuk satu tabel
